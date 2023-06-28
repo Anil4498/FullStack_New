@@ -1,0 +1,54 @@
+body,html{
+    width: 100%;
+    padding: 0px;
+    margin: 4px;
+    position: sticky;
+}
+
+.navbar{
+    background-color: rgb(231, 51, 156);
+    padding: 0px 2px;
+    position: sticky;
+    
+}
+.banner{
+    background-color: aqua;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+    /* background-image: url(https://media.istockphoto.com/id/1311598658/photo/businessman-trading-online-stock-market-on-teblet-screen-digital-investment-concept.jpg?s=1024x1024&w=is&k=20&c=JZprgGDQ8xqa6iu0fyKJfKOlAvae0w9U-AdHeCT2kg4=); */
+    /* background:-o-linear-gradient(rgba(0, 128, 0,.5) rgba(255, 0, 0,0.5)); */
+    background: linear-gradient(45deg, rgb(168, 20, 156), rgb(10, 158, 191), rgba(240, 27, 12, 0.993));
+
+}
+
+
+.navbar-nav, .nav-item
+{
+    display: inline;
+}
+
+.nav-link,.navbar-brand
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link{
+    margin-left: 40px;
+    transition: color .5s;
+}
+.nav-link:hover{
+    color: limegreen;
+}
+
+.navbar-brand span
+{
+    color: blue;
+    font-size: 60px;
+    margin-left: 40px;
+}

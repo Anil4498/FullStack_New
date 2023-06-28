@@ -1,0 +1,67 @@
+
+ /* 1 element selector-- >here we slect the only one type of element*/
+
+  h1{
+
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+
+} 
+
+ p{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+
+} 
+  a{ color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+ }  
+ 
+ /* 2 group selectors-->we cn select multiple type of ::-webkit-progress-inner-element */
+
+  p,a,h1
+ {
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+
+} 
+
+/* 3 class selectors only for the particular tag which is having the class name */
+
+h1.swami{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+
+} 
+
+/* 4 generic selectors-->  select all the tag which is having the class */
+
+ .arya{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;
+} 
+/* 5 ID selectors--> select all the tag which is hving the same id name, if the common prprty in the generic selector and 
+id selector the id selctor property will be pply to the */
+ #kavi{
+    color: rgb(19, 164, 201);
+ font-style: italic;} 
+
+ /* 6 universal selector--->if we want to aply the property to the all tag */
+
+ 
+ *{color:rgb(23, 20, 220);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times new roman;}
