@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic</title>
+</head>
+<body>
+
+    <button onclick="name1()">click me</button>
+    <button onclick="name2()">click me2</button>
+
+    <script>
+        function name1() {
+            import('./dynamic.js').then((data)=>{
+            // console.log(data.add(2,4))
+            document.write(a.add(4,9))
+        })
+        }
+        
+        async function name2() {
+          let a=await import('./dynamic.js')
+        //   console.log(a.add(4,6))
+          document.write(a.add(4,8))
+        
+        }
+        
+           </script>
+</body>
+</html>
